@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nota1, nota2, media, faltas
+
+		escreva("Digite a nota 1: ")
+		leia(nota1)
+		escreva("Digite a nota 2: ")
+		leia(nota2)
+		escreva("Digite o número de faltas: ")
+		leia(faltas)
+		limpa()
+
+		media=(nota1+nota2)/2
+
+		se(media >= 7 e faltas < 10){
+			escreva("Parabéns, você foi aprovado!")
+		}senao{
+			escreva("Reprovado")
+		}
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 366; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
